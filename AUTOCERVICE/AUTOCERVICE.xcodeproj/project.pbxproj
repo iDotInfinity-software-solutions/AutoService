@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0B8D561F2BCFDC001C8C92 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0B8D551F2BCFDB001C8C92 /* Launch Screen.storyboard */; };
+		6CEC74E51F104915000AD198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC74E41F104915000AD198 /* AppDelegate.swift */; };
+		6CEC74E71F104915000AD198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC74E61F104915000AD198 /* ViewController.swift */; };
+		6CEC74EA1F104915000AD198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEC74E81F104915000AD198 /* Main.storyboard */; };
+		6CEC74EC1F104915000AD198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEC74EB1F104915000AD198 /* Assets.xcassets */; };
+		6CEC74FA1F104915000AD198 /* AUTOCERVICETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC74F91F104915000AD198 /* AUTOCERVICETests.swift */; };
+		6CEC75051F104915000AD198 /* AUTOCERVICEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC75041F104915000AD198 /* AUTOCERVICEUITests.swift */; };
+		6CEC75141F104F3B000AD198 /* Login pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEC75121F104F3B000AD198 /* Login pageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CEC74F61F104915000AD198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEC74D91F104914000AD198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEC74E01F104915000AD198;
+			remoteInfo = AUTOCERVICE;
+		};
+		6CEC75011F104915000AD198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEC74D91F104914000AD198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEC74E01F104915000AD198;
+			remoteInfo = AUTOCERVICE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C0B8D551F2BCFDB001C8C92 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6CEC74E11F104915000AD198 /* AUTOCERVICE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUTOCERVICE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEC74E41F104915000AD198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CEC74E61F104915000AD198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CEC74E91F104915000AD198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CEC74EB1F104915000AD198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CEC74F01F104915000AD198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEC74F51F104915000AD198 /* AUTOCERVICETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUTOCERVICETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEC74F91F104915000AD198 /* AUTOCERVICETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUTOCERVICETests.swift; sourceTree = "<group>"; };
+		6CEC74FB1F104915000AD198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEC75001F104915000AD198 /* AUTOCERVICEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUTOCERVICEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEC75041F104915000AD198 /* AUTOCERVICEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUTOCERVICEUITests.swift; sourceTree = "<group>"; };
+		6CEC75061F104915000AD198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEC75121F104F3B000AD198 /* Login pageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Login pageViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEC74DE1F104915000AD198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74F21F104915000AD198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74FD1F104915000AD198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CEC74D81F104914000AD198 = {
+			isa = PBXGroup;
+			children = (
+				6CEC75121F104F3B000AD198 /* Login pageViewController.swift */,
+				6CEC74E31F104915000AD198 /* AUTOCERVICE */,
+				6CEC74F81F104915000AD198 /* AUTOCERVICETests */,
+				6CEC75031F104915000AD198 /* AUTOCERVICEUITests */,
+				6CEC74E21F104915000AD198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CEC74E21F104915000AD198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CEC74E11F104915000AD198 /* AUTOCERVICE.app */,
+				6CEC74F51F104915000AD198 /* AUTOCERVICETests.xctest */,
+				6CEC75001F104915000AD198 /* AUTOCERVICEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CEC74E31F104915000AD198 /* AUTOCERVICE */ = {
+			isa = PBXGroup;
+			children = (
+				6CEC74E41F104915000AD198 /* AppDelegate.swift */,
+				6CEC74E61F104915000AD198 /* ViewController.swift */,
+				6CEC74E81F104915000AD198 /* Main.storyboard */,
+				6C0B8D551F2BCFDB001C8C92 /* Launch Screen.storyboard */,
+				6CEC74EB1F104915000AD198 /* Assets.xcassets */,
+				6CEC74F01F104915000AD198 /* Info.plist */,
+			);
+			path = AUTOCERVICE;
+			sourceTree = "<group>";
+		};
+		6CEC74F81F104915000AD198 /* AUTOCERVICETests */ = {
+			isa = PBXGroup;
+			children = (
+				6CEC74F91F104915000AD198 /* AUTOCERVICETests.swift */,
+				6CEC74FB1F104915000AD198 /* Info.plist */,
+			);
+			path = AUTOCERVICETests;
+			sourceTree = "<group>";
+		};
+		6CEC75031F104915000AD198 /* AUTOCERVICEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CEC75041F104915000AD198 /* AUTOCERVICEUITests.swift */,
+				6CEC75061F104915000AD198 /* Info.plist */,
+			);
+			path = AUTOCERVICEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CEC74E01F104915000AD198 /* AUTOCERVICE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEC75091F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICE" */;
+			buildPhases = (
+				6CEC74DD1F104915000AD198 /* Sources */,
+				6CEC74DE1F104915000AD198 /* Frameworks */,
+				6CEC74DF1F104915000AD198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUTOCERVICE;
+			productName = AUTOCERVICE;
+			productReference = 6CEC74E11F104915000AD198 /* AUTOCERVICE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CEC74F41F104915000AD198 /* AUTOCERVICETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEC750C1F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICETests" */;
+			buildPhases = (
+				6CEC74F11F104915000AD198 /* Sources */,
+				6CEC74F21F104915000AD198 /* Frameworks */,
+				6CEC74F31F104915000AD198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEC74F71F104915000AD198 /* PBXTargetDependency */,
+			);
+			name = AUTOCERVICETests;
+			productName = AUTOCERVICETests;
+			productReference = 6CEC74F51F104915000AD198 /* AUTOCERVICETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CEC74FF1F104915000AD198 /* AUTOCERVICEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEC750F1F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICEUITests" */;
+			buildPhases = (
+				6CEC74FC1F104915000AD198 /* Sources */,
+				6CEC74FD1F104915000AD198 /* Frameworks */,
+				6CEC74FE1F104915000AD198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEC75021F104915000AD198 /* PBXTargetDependency */,
+			);
+			name = AUTOCERVICEUITests;
+			productName = AUTOCERVICEUITests;
+			productReference = 6CEC75001F104915000AD198 /* AUTOCERVICEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CEC74D91F104914000AD198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "bhukya charan singh";
+				TargetAttributes = {
+					6CEC74E01F104915000AD198 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S53M6K7855;
+						ProvisioningStyle = Automatic;
+					};
+					6CEC74F41F104915000AD198 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S53M6K7855;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CEC74E01F104915000AD198;
+					};
+					6CEC74FF1F104915000AD198 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S53M6K7855;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CEC74E01F104915000AD198;
+					};
+				};
+			};
+			buildConfigurationList = 6CEC74DC1F104914000AD198 /* Build configuration list for PBXProject "AUTOCERVICE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CEC74D81F104914000AD198;
+			productRefGroup = 6CEC74E21F104915000AD198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CEC74E01F104915000AD198 /* AUTOCERVICE */,
+				6CEC74F41F104915000AD198 /* AUTOCERVICETests */,
+				6CEC74FF1F104915000AD198 /* AUTOCERVICEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CEC74DF1F104915000AD198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC74EC1F104915000AD198 /* Assets.xcassets in Resources */,
+				6C0B8D561F2BCFDC001C8C92 /* Launch Screen.storyboard in Resources */,
+				6CEC74EA1F104915000AD198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74F31F104915000AD198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74FE1F104915000AD198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CEC74DD1F104915000AD198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC74E71F104915000AD198 /* ViewController.swift in Sources */,
+				6CEC74E51F104915000AD198 /* AppDelegate.swift in Sources */,
+				6CEC75141F104F3B000AD198 /* Login pageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74F11F104915000AD198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC74FA1F104915000AD198 /* AUTOCERVICETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEC74FC1F104915000AD198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEC75051F104915000AD198 /* AUTOCERVICEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CEC74F71F104915000AD198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEC74E01F104915000AD198 /* AUTOCERVICE */;
+			targetProxy = 6CEC74F61F104915000AD198 /* PBXContainerItemProxy */;
+		};
+		6CEC75021F104915000AD198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEC74E01F104915000AD198 /* AUTOCERVICE */;
+			targetProxy = 6CEC75011F104915000AD198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CEC74E81F104915000AD198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEC74E91F104915000AD198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CEC75071F104915000AD198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CEC75081F104915000AD198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CEC750A1F104915000AD198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6CEC750B1F104915000AD198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6CEC750D1F104915000AD198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUTOCERVICE.app/AUTOCERVICE";
+			};
+			name = Debug;
+		};
+		6CEC750E1F104915000AD198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUTOCERVICE.app/AUTOCERVICE";
+			};
+			name = Release;
+		};
+		6CEC75101F104915000AD198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AUTOCERVICE;
+			};
+			name = Debug;
+		};
+		6CEC75111F104915000AD198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S53M6K7855;
+				INFOPLIST_FILE = AUTOCERVICEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "charan.bhukya875-gmail.com.AUTOCERVICEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AUTOCERVICE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CEC74DC1F104914000AD198 /* Build configuration list for PBXProject "AUTOCERVICE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEC75071F104915000AD198 /* Debug */,
+				6CEC75081F104915000AD198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEC75091F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEC750A1F104915000AD198 /* Debug */,
+				6CEC750B1F104915000AD198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEC750C1F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEC750D1F104915000AD198 /* Debug */,
+				6CEC750E1F104915000AD198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEC750F1F104915000AD198 /* Build configuration list for PBXNativeTarget "AUTOCERVICEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEC75101F104915000AD198 /* Debug */,
+				6CEC75111F104915000AD198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CEC74D91F104914000AD198 /* Project object */;
+}
